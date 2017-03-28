@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1487662945 source:d:\ws_cb\uart\main.c
+	<ax8052.h>
+	<libmftypes.h>
+	<libmfflash.h>
+	<libmfwtimer.h>
+	<libminikitleds.h>
+	<libmfuart.h>
+	<libmfuart0.h>
+
