@@ -1,19 +1,7 @@
 /*!*****************************************************************************
  * @file
  * Test UART.
- ******************************************************************************/
 
-#include <ax8052.h>
-#include <libmftypes.h>
-#include <libmfflash.h>
-#include <libmfwtimer.h>
-#include <libminikitleds.h>
-
-#include <libm
-#include <libmfuart0.h>
-
-#define TEST_UART_RX
-#define TEST_UART_TX
 
 struct wtimer_desc __xdata wtdesc;
 uint8_t ledsave;
