@@ -1,13 +1,7 @@
 /*!*****************************************************************************
  * @file
  * Test UART.
- ******************************************************************************/
 
-#include <
-#include <libmfuart0.h>
-
-#define TEST_UART_RX
-#define TEST_UART_TX
 
 struct wtimer_desc __xdata wtdesc;
 uint8_t ledsave;
