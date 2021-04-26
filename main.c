@@ -9,7 +9,7 @@
 #include <libmfwtimer.h>
 #include <libminikitleds.h>
 
-#include <libmfuart.h>
+#include <libm
 #include <libmfuart0.h>
 
 #define TEST_UART_RX
