@@ -14,23 +14,6 @@ void wtcallback(struct wtimer_desc __xdata *desc)
 }
 
 
-#if defined(__ICC8051__)
-#define coldstart 1                     // TODO question 3
-#define warmstart 0
-//
-// If the code model is banked, low_level_init must be declared
-// __near_func elsa a ?BRET is performed
-//
-#if (__CODE_MODEL__ == 2)
-__near_func __root char
-#else
-__root char
-#endif
-__low_level_init(void) @ "CSTART"
-#else
-#define coldstart 0
-#define warmstart 1
-uint8_t _sdcc_external_startup(void)
 #endif
 {
     DPS = 0;
